@@ -1,0 +1,639 @@
+[
+  {
+    "_id": "59b584c573bac1f328e5d55e",
+    "referencia": {
+      "initValue": "Cowtown",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "Referencia",
+      "controlType": "textbox",
+      "type": "text"
+    },
+    "elemento": {
+      "initValue": "ullamco",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "Elemento",
+      "controlType": "textbox",
+      "type": "text"
+    },
+    "fabricante": {
+      "initValue": "Gynko",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "Compañía",
+      "controlType": "textbox",
+      "type": "text"
+    },
+    "dependencia": {
+      "initValue": "Laboratorio Mecánica",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "dependencia",
+      "controlType": "dropdown",
+      "options": [
+        "Instrumentación",
+        "Laboratorio Mecánica"
+      ]
+    },
+    
+    "cantidad": {
+      "initValue": 6,
+      "validationMessages": {
+        "required": "required"
+      },
+      "label": "Cantidad",
+      "controlType": "textbox",
+      "type": "number"
+    },
+    "disponibles": {
+      "initValue": null,
+      "label": "disponibles",
+      "controlType": ""
+    },
+    "imageId": {
+      "initValue": "59b584c5fd04202390981e12",
+      "label": "ImageId",
+      "controlType": ""
+    },
+    "imageUrl": {
+      "initValue": "http://placehold.it/32x32",
+      "label": "Url",
+      "controlType": ""
+    },
+    "createdAt": {
+      "initValue": "Sun Jan 08 1984 02:44:27 GMT+0000 (UTC)",
+      "label": "Creado en",
+      "controlType": ""
+    },
+    "createdBy": {
+      "initValue": "Bailey Barry",
+      "label": "Creado por",
+      "controlType": ""
+    },
+    "prestadas": {
+      "initValue": null,
+      "label": "Prestadas",
+      "controlType": ""
+    }
+  },
+  {
+    "_id": "59b584c55433ffac3eff79bd",
+    "referencia": {
+      "initValue": "Zoxy",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "Referencia",
+      "controlType": "textbox",
+      "type": "text"
+    },
+    "elemento": {
+      "initValue": "do",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "Elemento",
+      "controlType": "textbox",
+      "type": "text"
+    },
+    "fabricante": {
+      "initValue": "Mediot",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "Compañía",
+      "controlType": "textbox",
+      "type": "text"
+    },
+    "dependencia": {
+      "initValue": "Laboratorio Mecánica",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "dependencia",
+      "controlType": "dropdown",
+      "options": [
+        "Instrumentación",
+        "Laboratorio Mecánica"
+      ]
+    },
+    "facturas": {
+      "initValue": [
+        {
+          "_id": "59b584c584fec715679b41ae",
+          "concepto": "anim",
+          "proveedor": "Quantalia",
+          "existencias": 4,
+          "monto": "$2,997.14"
+        },
+        {
+          "_id": "59b584c5cc650fcc70f2fb53",
+          "concepto": "culpa",
+          "proveedor": "Radiantix",
+          "existencias": 4,
+          "monto": "$1,013.84"
+        },
+        {
+          "_id": "59b584c56d1414a3e60b0ab1",
+          "concepto": "culpa",
+          "proveedor": "Infotrips",
+          "existencias": 3,
+          "monto": "$1,040.74"
+        }
+      ],
+      "validationMessages": {
+        "required": "required"
+      },
+      "label": "Facturas",
+      "controlType": "array"
+    },
+    "cantidad": {
+      "initValue": 6,
+      "validationMessages": {
+        "required": "required"
+      },
+      "label": "Cantidad",
+      "controlType": "textbox",
+      "type": "number"
+    },
+    "disponibles": {
+      "initValue": null,
+      "label": "disponibles",
+      "controlType": ""
+    },
+    "imageId": {
+      "initValue": "59b584c5f745485b57dbeb4a",
+      "label": "ImageId",
+      "controlType": ""
+    },
+    "imageUrl": {
+      "initValue": "http://placehold.it/32x32",
+      "label": "Url",
+      "controlType": ""
+    },
+    "createdAt": {
+      "initValue": "Fri Jan 01 1988 10:30:19 GMT+0000 (UTC)",
+      "label": "Creado en",
+      "controlType": ""
+    },
+    "createdBy": {
+      "initValue": "Flowers Carroll",
+      "label": "Creado por",
+      "controlType": ""
+    },
+    "prestadas": {
+      "initValue": null,
+      "label": "Prestadas",
+      "controlType": ""
+    }
+  },
+  {
+    "_id": "59b584c5dd9d5072668f31a0",
+    "referencia": {
+      "initValue": "Accufarm",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "Referencia",
+      "controlType": "textbox",
+      "type": "text"
+    },
+    "elemento": {
+      "initValue": "adipisicing",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "Elemento",
+      "controlType": "textbox",
+      "type": "text"
+    },
+    "fabricante": {
+      "initValue": "Ginkogene",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "Compañía",
+      "controlType": "textbox",
+      "type": "text"
+    },
+    "dependencia": {
+      "initValue": "Instrumentación",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "dependencia",
+      "controlType": "dropdown",
+      "options": [
+        "Instrumentación",
+        "Laboratorio Mecánica"
+      ]
+    },
+    "facturas": {
+      "initValue": [
+        {
+          "_id": "59b584c5333ce048f3b5e010",
+          "concepto": "sit",
+          "proveedor": "Collaire",
+          "existencias": 2,
+          "monto": "$2,228.01"
+        },
+        {
+          "_id": "59b584c5ca20916604b8607b",
+          "concepto": "pariatur",
+          "proveedor": "Honotron",
+          "existencias": 4,
+          "monto": "$3,744.59"
+        },
+        {
+          "_id": "59b584c55a48ca31b1d38e9a",
+          "concepto": "ut",
+          "proveedor": "Eyeris",
+          "existencias": 3,
+          "monto": "$1,164.01"
+        }
+      ],
+      "validationMessages": {
+        "required": "required"
+      },
+      "label": "Facturas",
+      "controlType": "array"
+    },
+    "cantidad": {
+      "initValue": 10,
+      "validationMessages": {
+        "required": "required"
+      },
+      "label": "Cantidad",
+      "controlType": "textbox",
+      "type": "number"
+    },
+    "disponibles": {
+      "initValue": null,
+      "label": "disponibles",
+      "controlType": ""
+    },
+    "imageId": {
+      "initValue": "59b584c53f2b2e074b92b076",
+      "label": "ImageId",
+      "controlType": ""
+    },
+    "imageUrl": {
+      "initValue": "http://placehold.it/32x32",
+      "label": "Url",
+      "controlType": ""
+    },
+    "createdAt": {
+      "initValue": "Sat Jul 19 1980 03:07:33 GMT+0000 (UTC)",
+      "label": "Creado en",
+      "controlType": ""
+    },
+    "createdBy": {
+      "initValue": "Bray Carver",
+      "label": "Creado por",
+      "controlType": ""
+    },
+    "prestadas": {
+      "initValue": null,
+      "label": "Prestadas",
+      "controlType": ""
+    }
+  },
+  {
+    "_id": "59b584c53ab1f107680eedfd",
+    "referencia": {
+      "initValue": "Veraq",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "Referencia",
+      "controlType": "textbox",
+      "type": "text"
+    },
+    "elemento": {
+      "initValue": "aliqua",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "Elemento",
+      "controlType": "textbox",
+      "type": "text"
+    },
+    "fabricante": {
+      "initValue": "Olucore",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "Compañía",
+      "controlType": "textbox",
+      "type": "text"
+    },
+    "dependencia": {
+      "initValue": "Instrumentación",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "dependencia",
+      "controlType": "dropdown",
+      "options": [
+        "Instrumentación",
+        "Laboratorio Mecánica"
+      ]
+    },
+    "facturas": {
+      "initValue": [
+        {
+          "_id": "59b584c52e3b19fccca5a611",
+          "concepto": "ullamco",
+          "proveedor": "Obliq",
+          "existencias": 4,
+          "monto": "$3,571.34"
+        },
+        {
+          "_id": "59b584c50ee694d3f031d909",
+          "concepto": "reprehenderit",
+          "proveedor": "Earthmark",
+          "existencias": 2,
+          "monto": "$2,800.22"
+        },
+        {
+          "_id": "59b584c51f62f343bbb4da59",
+          "concepto": "amet",
+          "proveedor": "Anixang",
+          "existencias": 3,
+          "monto": "$3,179.90"
+        }
+      ],
+      "validationMessages": {
+        "required": "required"
+      },
+      "label": "Facturas",
+      "controlType": "array"
+    },
+    "cantidad": {
+      "initValue": 9,
+      "validationMessages": {
+        "required": "required"
+      },
+      "label": "Cantidad",
+      "controlType": "textbox",
+      "type": "number"
+    },
+    "disponibles": {
+      "initValue": null,
+      "label": "disponibles",
+      "controlType": ""
+    },
+    "imageId": {
+      "initValue": "59b584c534585857f13c6942",
+      "label": "ImageId",
+      "controlType": ""
+    },
+    "imageUrl": {
+      "initValue": "http://placehold.it/32x32",
+      "label": "Url",
+      "controlType": ""
+    },
+    "createdAt": {
+      "initValue": "Sun Jan 27 2008 22:05:08 GMT+0000 (UTC)",
+      "label": "Creado en",
+      "controlType": ""
+    },
+    "createdBy": {
+      "initValue": "Gill Rodgers",
+      "label": "Creado por",
+      "controlType": ""
+    },
+    "prestadas": {
+      "initValue": null,
+      "label": "Prestadas",
+      "controlType": ""
+    }
+  },
+  {
+    "_id": "59b584c5f13938fb4edeebed",
+    "referencia": {
+      "initValue": "Comstruct",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "Referencia",
+      "controlType": "textbox",
+      "type": "text"
+    },
+    "elemento": {
+      "initValue": "fugiat",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "Elemento",
+      "controlType": "textbox",
+      "type": "text"
+    },
+    "fabricante": {
+      "initValue": "Geekular",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "Compañía",
+      "controlType": "textbox",
+      "type": "text"
+    },
+    "dependencia": {
+      "initValue": "Instrumentación",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "dependencia",
+      "controlType": "dropdown",
+      "options": [
+        "Instrumentación",
+        "Laboratorio Mecánica"
+      ]
+    },
+    "facturas": {
+      "initValue": [
+        {
+          "_id": "59b584c5fe9af1e340f09e96",
+          "concepto": "et",
+          "proveedor": "Quintity",
+          "existencias": 4,
+          "monto": "$2,274.24"
+        },
+        {
+          "_id": "59b584c59855ba87467a7722",
+          "concepto": "excepteur",
+          "proveedor": "Tropolis",
+          "existencias": 2,
+          "monto": "$3,943.77"
+        },
+        {
+          "_id": "59b584c55dfcbb4f00abb2e9",
+          "concepto": "anim",
+          "proveedor": "Konnect",
+          "existencias": 2,
+          "monto": "$1,311.06"
+        }
+      ],
+      "validationMessages": {
+        "required": "required"
+      },
+      "label": "Facturas",
+      "controlType": "array"
+    },
+    "cantidad": {
+      "initValue": 8,
+      "validationMessages": {
+        "required": "required"
+      },
+      "label": "Cantidad",
+      "controlType": "textbox",
+      "type": "number"
+    },
+    "disponibles": {
+      "initValue": null,
+      "label": "disponibles",
+      "controlType": ""
+    },
+    "imageId": {
+      "initValue": "59b584c57e046b4af4fa9e33",
+      "label": "ImageId",
+      "controlType": ""
+    },
+    "imageUrl": {
+      "initValue": "http://placehold.it/32x32",
+      "label": "Url",
+      "controlType": ""
+    },
+    "createdAt": {
+      "initValue": "Wed Apr 09 2014 01:20:25 GMT+0000 (UTC)",
+      "label": "Creado en",
+      "controlType": ""
+    },
+    "createdBy": {
+      "initValue": "Stone Parrish",
+      "label": "Creado por",
+      "controlType": ""
+    },
+    "prestadas": {
+      "initValue": null,
+      "label": "Prestadas",
+      "controlType": ""
+    }
+  },
+  {
+    "_id": "59b584c536bb48ac7290a7b4",
+    "referencia": {
+      "initValue": "Keeg",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "Referencia",
+      "controlType": "textbox",
+      "type": "text"
+    },
+    "elemento": {
+      "initValue": "eiusmod",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "Elemento",
+      "controlType": "textbox",
+      "type": "text"
+    },
+    "fabricante": {
+      "initValue": "Zytrax",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "Compañía",
+      "controlType": "textbox",
+      "type": "text"
+    },
+    "dependencia": {
+      "initValue": "Laboratorio Mecánica",
+      "validationMessages": {
+        "required": "requerido"
+      },
+      "label": "dependencia",
+      "controlType": "dropdown",
+      "options": [
+        "Instrumentación",
+        "Laboratorio Mecánica"
+      ]
+    },
+    "facturas": {
+      "initValue": [
+        {
+          "_id": "59b584c568adee8216465f20",
+          "concepto": "ullamco",
+          "proveedor": "Phormula",
+          "existencias": 2,
+          "monto": "$2,814.13"
+        },
+        {
+          "_id": "59b584c5cecfa021d1392134",
+          "concepto": "et",
+          "proveedor": "Bostonic",
+          "existencias": 3,
+          "monto": "$3,402.96"
+        },
+        {
+          "_id": "59b584c571baf8cda48ec9e3",
+          "concepto": "do",
+          "proveedor": "Otherside",
+          "existencias": 3,
+          "monto": "$1,256.35"
+        }
+      ],
+      "validationMessages": {
+        "required": "required"
+      },
+      "label": "Facturas",
+      "controlType": "array"
+    },
+    "cantidad": {
+      "initValue": 8,
+      "validationMessages": {
+        "required": "required"
+      },
+      "label": "Cantidad",
+      "controlType": "textbox",
+      "type": "number"
+    },
+    "disponibles": {
+      "initValue": null,
+      "label": "disponibles",
+      "controlType": ""
+    },
+    "imageId": {
+      "initValue": "59b584c5e3dc844c4e3d23e8",
+      "label": "ImageId",
+      "controlType": ""
+    },
+    "imageUrl": {
+      "initValue": "http://placehold.it/32x32",
+      "label": "Url",
+      "controlType": ""
+    },
+    "createdAt": {
+      "initValue": "Sun Mar 22 1998 00:17:24 GMT+0000 (UTC)",
+      "label": "Creado en",
+      "controlType": ""
+    },
+    "createdBy": {
+      "initValue": "Irwin Salinas",
+      "label": "Creado por",
+      "controlType": ""
+    },
+    "prestadas": {
+      "initValue": null,
+      "label": "Prestadas",
+      "controlType": ""
+    }
+  }
+]

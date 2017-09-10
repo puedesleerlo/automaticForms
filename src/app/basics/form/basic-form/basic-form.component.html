@@ -1,0 +1,12 @@
+<div>
+    <form (ngSubmit)="save()" [formGroup]="form">
+   
+      <div *ngFor="let question of model | key" class="form-row">
+        <app-input-box [question]="question" [form]="form"></app-input-box>
+      </div>
+   
+      <div class="form-row">
+        <button type="submit" [disabled]="!isFormInvalidOrPristine()">Save</button>
+      </div>
+    </form>
+  </div>

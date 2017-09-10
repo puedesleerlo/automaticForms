@@ -1,0 +1,103 @@
+[
+  {
+    'repeat(5, 10)': {
+      _id: '{{objectId()}}',
+    referencia: {
+      initValue: '{{company()}}',
+      validationMessages: {
+          required: "requerido"
+      },
+      label: "Referencia",
+      controlType: "textbox",
+      type: "text"
+    },
+    elemento: {
+      initValue: '{{lorem(1, "words")}}',
+      validationMessages: {
+          required: "requerido"
+      },
+      label: "Elemento",
+      controlType: "textbox",
+      type: "text"
+    },
+    fabricante: {
+      initValue: '{{company()}}',
+      validationMessages: {
+          required: "requerido"
+      },
+      label: "Compañía",
+      controlType: "textbox",
+      type: "text"
+    },
+    dependencia: {
+      initValue: '{{random("Instrumentación", "Laboratorio Mecánica")}}',
+      validationMessages: {
+          required: "requerido"
+      },
+      label: "dependencia",
+      controlType: "dropdown",
+      options: ["Instrumentación", "Laboratorio Mecánica"]
+    },
+    facturas: {
+      initValue: [
+      {
+		'repeat(3)': {
+          _id: '{{objectId()}}',
+          concepto: '{{lorem(1, "words")}}',
+          proveedor: '{{company()}}',
+          existencias: '{{integer(2, 4)}}',
+          monto: '{{floating(1000, 4000, 2, "$0,0.00")}}'
+        }
+      }],
+      validationMessages: {
+          "required": "required"
+      },
+      label: "Facturas",
+      controlType: "array"
+    },
+    cantidad: {
+      initValue: '{{integer(5, 10)}}',
+      validationMessages: {
+          "required": "required"
+      },
+      label: "Cantidad",
+      controlType: "textbox",
+      type: "number"
+    },
+    disponibles: {
+      initValue: function (tags) {
+          return this.cantidad - 5;
+      },
+      label: "disponibles",
+      controlType: ""
+    },
+    imageId: {
+      initValue: '{{objectId()}}',
+      label: "ImageId",
+      controlType: ""
+    },
+    imageUrl: {
+      initValue: 'http://placehold.it/32x32',
+      label: "Url",
+      controlType: ""
+    },
+    createdAt: {
+      initValue: '{{date()}}',
+      label: "Creado en",
+      controlType: ""
+    },
+    createdBy: {
+      initValue: '{{firstName()}} {{surname()}}',
+      label: "Creado por",
+      controlType: ""
+    },
+    prestadas: {
+      initValue: function (tags) {
+          return this.cantidad - this.disponibles;
+      },
+      label: "Prestadas",
+      controlType: ""
+    }
+    }
+  }
+]
