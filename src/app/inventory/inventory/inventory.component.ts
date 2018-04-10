@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ToolService } from "../tool.service";
 @Component({
   selector: 'app-inventory',
   templateUrl: './inventory.component.html',
@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InventoryComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private toolService: ToolService) { }
+  items: any[]
   ngOnInit() {
+    this.items = this.toolService.getTools();
   }
 
 }

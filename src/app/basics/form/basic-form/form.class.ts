@@ -34,7 +34,7 @@ export abstract class FormClass {
             var validators = this.changeValidatorsNameForValidators(field)
            
             if (field.initValue instanceof Array) {
-                model[key] = this.buildArray(validators, field.initValue);
+                model[key] = this.buildArray(validators[0], field.initValue);
             }
             else {
                 model[key] = [field.initValue,validators]
@@ -105,8 +105,8 @@ export abstract class FormClass {
     help() {
 
     }
-    buildArray(validators?, array?: any[]) {
-        return this.formBuilder.array(array || [], validators || CustomValidators.lengthArray());
+    buildArray(validator?, array?: any[]) {
+        return this.formBuilder.array(array || [], validator || CustomValidators.lengthArray());
     }
     validatorsList = {
         'required' : CustomValidators.required(),

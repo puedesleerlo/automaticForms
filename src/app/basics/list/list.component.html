@@ -1,3 +1,17 @@
 <p>
   list works!
 </p>
+<div [ngSwitch]="visualization">
+  <div *ngSwitchCase="grid">
+    <md-grid-list cols="3" rowHeight="3px">
+      <md-grid-tile *ngFor="let item of items">
+        {{item.principal}}
+      </md-grid-tile>
+    </md-grid-list>
+  </div>
+  <div *ngSwitchDefault>
+    <md-list>
+      <md-list-item *ngFor="let item of items">{{item.principal}}</md-list-item>
+    </md-list>
+  </div>
+</div>

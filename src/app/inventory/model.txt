@@ -1,7 +1,11 @@
 [
   {
     'repeat(5, 10)': {
-      _id: '{{objectId()}}',
+      _id: {
+      initValue: '{{objectId()}}',
+      label: "Id",
+      "controlType": ""
+    },
     referencia: {
       initValue: '{{company()}}',
       validationMessages: {
